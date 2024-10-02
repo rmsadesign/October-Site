@@ -1,9 +1,20 @@
+a {
+    font-size: 0.5em;
+     /* font-size 10pt */
+}
+    
 nav {
     background-color: orange;
+    font-size: 20pt;
+    position: relative;
 }
 
 h1 {
     background-color: red;
+    font-size: 5vw;
+    display: inline;
+    position: sticky;
+    top: 50px;
 }
 
 p {
@@ -17,10 +28,26 @@ img {
 
 nav img {
     height: 50px;
-    width: 50px;
+    width: 50pt;
 }
 
 .extra-large {
     height: 500px;
     width: 500px;
+}
+
+#about {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    background-color: black;
+}
+
+#some-text {
+    color: skyblue;
+    background-color: brown;
+    display: inline;
+    position: sticky;
+    
+
 }
